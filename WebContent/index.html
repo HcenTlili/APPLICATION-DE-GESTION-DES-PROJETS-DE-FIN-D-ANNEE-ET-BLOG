@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Flat UI Login</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+<div id="header">Plateforme de gestion des PFA et des PFE à l'ENIT</div>
+  <div id="wrap">
+  <div id="regbar">
+    <div id="navthing">
+      <h2><a href="#" id="loginform">Login</a> | <a href="#" id="registerform">Register</a></h2>
+    
+    <div class="register">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+        <form action="servletAcceuil" >
+           <fieldset>
+             <label name="identifiantRegister">Identifiant</label>
+             <input type="text" name="identifiantregister" />
+             <label name="loginRegister">Login</label>
+             <input type="text" name="loginuserregister" />
+             <label name="passwordregister">Password</label>
+             <input type="password" name="mdpuserregister" />            
+             <label name="roleRegister">Role(Etudiant ou Enseignant)</label>
+             <input type="text" name="roleuserregister" />
+             <input type="submit" value="Register" />
+ 
+           </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="login">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+        <form action="testServlet" >
+           <fieldset>
+             <label name="identifiant">Identifiant</label>
+             <input type="text" name="identifiant" /><p>     </p>
+             <label name="login">Login</label>
+             <input type="text" name="loginuser" /><p>     </p>
+             <label name="password">Password</label>
+             <input type="password" name="mdpuser" /><p>     </p>
+             <input type="submit" value="Login" />
+ 
+           </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div>
+<h3> Cette application permet la gestion des projets de fin d'année et des projets de fin d'études au niveau de l'affectation des enseignants aux étudiants selon le choix de l'un ou de l'autre d'un projet déposé au préalable dans l'application. Ce choix suit la règle premier arrivé premier servi.</h3>
+<img src="css/enit.jpg">
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
