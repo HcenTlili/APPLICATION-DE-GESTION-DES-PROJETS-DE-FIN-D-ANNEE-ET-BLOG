@@ -1,1 +1,2 @@
 # APPLICATION-DE-GESTION-DES-PROJETS-DE-FIN-D-ANNEE-ET-BLOG
+L’objectif de ce projet est développer une interface web permettant aux enseignants de déposer des sujets de projets de fin d'année et aux étudiants de demander de l'encadrement à propos de ces sujets ou des PFE qu'ils concernent . Un blog est ajouté pour permettre la résolution des problèmes rencontrés au cours de la réalisation des projets .
